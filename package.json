@@ -1,0 +1,20 @@
+{
+  "name": "shelter",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "style": "sass --watch scss/main.scss style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/skyranor-JSFE2022Q1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/skyranor-JSFE2022Q1/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/skyranor-JSFE2022Q1#readme",
+  "description": ""
+}

@@ -1,0 +1,25 @@
+.credit-card {
+    position: relative;
+    background-color: $color-primary;
+    width: 349px;
+    height: 43px;
+    padding-right: 15px; 
+    display: flex;
+    @include font($size: 2rem, $height: 2.3rem);
+    color: $color-dark-l;
+    letter-spacing: 0.06em;
+    align-items: center;
+    justify-content: end;
+    border-radius: 9px;
+
+    &::before {
+        position: absolute;
+        content: '';
+        background: url('./assets/icons/credit-card.svg') no-repeat center center;
+        top: 10px;
+        left: 15px;
+        width: 30px;
+        height: 23px;
+
+    }
+}

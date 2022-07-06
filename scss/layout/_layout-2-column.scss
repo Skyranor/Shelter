@@ -1,0 +1,9 @@
+.layout-2-column {
+    @include columns();
+    gap: 120px;
+}
+
+.layout-2-column__donation {
+    @include columns();
+    gap: 30px;
+}

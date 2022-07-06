@@ -1,0 +1,36 @@
+.donation {
+    padding: 80px 182px 100px;
+    background: $color-light-l;
+}
+
+.donation__wrapper {
+    @include columns();
+    gap: 30px;
+}
+
+.donation__img {
+    max-width: 505px;
+    height: auto;
+    padding: 10px 0;
+}
+
+.donation__content {
+    max-width: 380px;
+}
+
+.donation__description { 
+    @include font($size: 1.5rem, $height: 1.7rem);
+    letter-spacing: 0.1rem;
+    color: $color-dark-l;
+    padding: 20px 0 20px;
+    margin: 0;
+}
+
+.donation__text {
+    padding-top: 20px;
+    font-family: 'Arial';
+    @include font($size: 1.2rem, $height: 1.8rem, $style: italic);
+    color: $color-dark-m;
+    margin: 0;
+
+}

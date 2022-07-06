@@ -1,0 +1,27 @@
+.start-screen {
+    background-image: $gradient-background;
+    margin-top: -180px;
+
+}
+
+.start-screen__wrapper {
+    padding-top: 180px;
+    background-image: url('./assets/images/start-screen-puppy.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 698px 728px;
+    min-height: 908px;
+    
+}
+
+.start-screen__title {
+    max-width: 310px;
+    margin: 0;
+    padding-top: 163px;
+    padding-bottom: 42px;
+}
+
+.start-screen__description {
+    max-width: 460px;
+    padding-bottom: 42px;
+}

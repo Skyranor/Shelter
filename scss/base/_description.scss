@@ -1,0 +1,6 @@
+.description {
+    @include font($size: 1.5rem, $height: 2.4rem);
+    @extend %font-add;
+    color: $color-dark-s;
+    margin: 0;
+}
