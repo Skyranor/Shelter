@@ -1,0 +1,25 @@
+.navigation {
+    display: flex;
+    gap: 35px;
+    margin: auto 0;
+}
+
+.navigation__link {
+
+    color: $color-dark-s;
+    text-decoration: none;
+    @extend %font-add;
+    @include font($size: 1.5rem, $height: 2.4rem);
+    position: relative;
+
+    &_active::after {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: $color-primary;
+        content: "";
+        // transition: width 0.3s ease-out;
+    }
+}

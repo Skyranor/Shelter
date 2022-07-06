@@ -1,0 +1,14 @@
+.help {
+    background-color: $color-light-xl;
+    padding: 80px 40px 100px;
+}
+
+.help__title {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.help__text {
+    @include font($size: 2rem, $height: 2.3rem);
+    letter-spacing: 0.056em;
+}

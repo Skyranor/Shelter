@@ -1,0 +1,23 @@
+.header {
+    background: $gradient-background;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0 60px;
+}
+
+.header__title {
+    margin: 0;
+    padding-bottom: 10px
+}
+
+.header__subtitle {
+    @extend %font-add;
+    @include font($size: 1.3rem, $height: 1.5rem);
+    letter-spacing: 0.1em;
+    color: $color-light-xl;
+    text-align: right;
+}
